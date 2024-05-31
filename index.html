@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="./New-Page-CSS.css">  <!-- This is linking "New Page CSS.scss" to this HTML page -->
+        <link rel="stylesheet" href="./Navbar.css">  <!-- This is linking "Navbar.css" to this HTML page -->
+        
+        <script type="text/javascript" src="./instafeedimp.js"></script>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: '11431279296',
+                clientId: 'daa142044bf14f7d8c494b1a424b9f37',
+                accessToken: '11431279296.daa1420.b0adf0653cc54fcc80a4062632772833',
+                resolution: 'standard_resolution',
+                template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}"/><div class="footer"></div></a>',
+                sortBy: 'most-recent',
+                limit: 5,
+                links: false
+                                        });
+                userFeed.run();
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <header id="header">  
+        <nav id="navbar">
+            <div class="container" id="navshadow">
+                <div class="d1"><img id="logo" src="logo-white.png" alt="Viktor Profile Photo"></div>
+                <div class="d2"><a class="navlinks" href="Website%20Main%20Page.html"> Home</a></div>
+                <div class="d3"><a class="navlinks" href="Selection%20Page.html"> Selection</a></div>
+                <div class="d4"><a class="navlinks" href="Our%20Story%20Page.html"> Our Story</a></div>
+                <div class="d5"><a class="navlinks" href="https://www.instagram.com/beeswaxwraps_julia_and_victor/" target="_blank"> Instagram</a></div>
+            </div>
+        </nav>
+        </header>
+        
+        <h1>Devoted to fighting plastic one wrap at a time</h1>
+        <main>  
+            
+            <div class="container2" style="display:flex; flex-direction:column; position: relative;">
+                <div style="display:flex; flex-direction:row; margin-left:auto; margin-right:auto;" >
+                    <a id="box-text" class="item-assorted" href=""><b>Assorted Set</b></a>
+                    <a id="box-text" class="item-large" href=""><b>Large Set</b></a>
+                    <a id="box-text" class="item-bread" href=""><b>Bread Set</b></a>
+                </div>
+                <div style="display:flex; flex-direction:row; margin-left:auto; margin-right: auto; margin-top: auto;">
+                    <a class="item-shop-now" href=""><b>Shop Now</b></a>
+                    <a class="item-explore" href=""><b>Explore</b></a>  
+                </div>        
+            </div>
+            
+        <p><br><br></p>
+
+        <div class="myDiv">
+            <div class="bg"></div>
+            <h2><b>LET'S STAY IN TOUCH</b></h2>
+            <p style="font-size: 20px;">Be the first to hear about our giveaways, special offers, and of course, to follow our beeswax wraps' journey.</p>
+            <form>
+                <label for="email" style="font-size: 22px; font-family: montserrat;">Email:</label>
+                <input type="text" id="email" name="email" class="email-field">
+                <input type="submit" name="submit" value="Subscribe Now" class="sub-now">
+            </form>
+        </div>
+            
+        <p><br><br></p>    
+            
+            <p></p>
+        
+            <p></p>
+            
+            <div id="instafeed"> </div>
+            
+            <p></p>
+            
+
+         
+        <script>
+            window.alert(5 + 6);
+        </script>   
+
+
+
+
+        </main>  
+        
+    </body> 
+</html>
+

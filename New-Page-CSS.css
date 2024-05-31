@@ -1,0 +1,448 @@
+body {
+  background-color: #f9fafb;
+}
+
+body {
+  background-color: #f9fafb;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 50px 10px 5px 0px;
+  font-size: 2em;
+  font-family: "Montserrat", Times, serif;
+  text-align: center;
+}
+
+h2 {
+  padding: 0px 10px 5px 0px;
+  font-size: 35px;
+  font-family: "Montserrat", Times, serif;
+  text-align: center;
+}
+
+#box-text {
+  padding: 0px 50px 0px 50px;
+  font-size: 50%;
+  margin: 0px 1px 0px 0px;
+  font-family: "Montserrat", Times, serif;
+  text-align: center;
+  color: black;
+  line-height: 50px;
+}
+
+p {
+  font-size: 1.3em;
+  font-family: "Arial", Times, serif;
+}
+
+.images-text {
+  color: black;
+  font-family: "Montserrat", Times, serif;
+}
+
+#main-image {
+  width: 1000px;
+  margin-top: 0px;
+}
+
+/* Container in the middle of the screen with an image. Container needed to position the button. Adjust the width as needed
+
+
+/* Container at the bottom of the screen with an image */
+.item-assorted {
+  background: rgba(220, 224, 239, 0.53);
+}
+
+.item-assorted:hover {
+  background-color: rgba(224, 191, 60, 0.5);
+}
+
+.item-large {
+  background: rgba(220, 224, 239, 0.53);
+  margin: 0px 0px 0px 0px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: 1/3/2/5;
+  padding: 00px;
+  display: block;
+}
+
+.item-large:hover {
+  background-color: rgba(224, 191, 60, 0.5);
+}
+
+.item-bread {
+  background: rgba(220, 224, 239, 0.53);
+  margin: 0px 0px 0px 0px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-area: 1/5/2/6;
+  padding: 0px;
+  display: block;
+}
+
+.item-bread:hover {
+  background-color: rgba(224, 191, 60, 0.5);
+}
+
+.item-shop-now {
+  background: rgba(3, 6, 18, 0.55);
+  margin: 0px 1px 0px 0px;
+  width: 8em;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  font-family: "Montserrat", Times, serif;
+}
+
+.item-shop-now:hover {
+  -webkit-animation-name: background-color1;
+          animation-name: background-color1;
+  -webkit-animation-duration: 600ms;
+          animation-duration: 600ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes background-color1 {
+  100% {
+    background-color: rgba(224, 191, 60, 0.75);
+  }
+}
+
+@keyframes background-color1 {
+  100% {
+    background-color: rgba(224, 191, 60, 0.75);
+  }
+}
+
+.item-explore {
+  background: rgba(3, 6, 18, 0.55);
+  margin: 0px 0px 0px 1px;
+  width: 8em;
+  text-align: center;
+  line-height: 200px;
+  /* puts the item in the middle of the block because it's height is bigger than the parent block */
+  color: white;
+  font-family: "Montserrat", Times, serif;
+}
+
+.item-explore:hover {
+  -webkit-animation-name: background-color2;
+          animation-name: background-color2;
+  -webkit-animation-duration: 600ms;
+          animation-duration: 600ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes background-color2 {
+  100% {
+    background-color: rgba(224, 191, 60, 0.75);
+  }
+}
+
+@keyframes background-color2 {
+  100% {
+    background-color: rgba(224, 191, 60, 0.75);
+  }
+}
+
+.container2 {
+  font-size: 40px;
+  height: 850px;
+  width: 1000px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  background: LightGray;
+  background-image: URL("./IMG_6065.jpg");
+  background-size: cover;
+}
+
+.viktor-image {
+  width: 300px;
+}
+
+.storybox {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Arial", Times, serif;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 30%;
+      grid-template-columns: 40% 30%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.storybox1 {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-family: "Arial", Times, serif;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(183, 196, 202, 0.55);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 50%;
+      grid-template-columns: 40% 50%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.face {
+  display: block;
+  margin: auto;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.myDiv {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.myDiv .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: URL("./IMG_6898.jpg") center center;
+  background-size: cover;
+  opacity: 0.3;
+  height: 300px;
+  width: 1000px;
+}
+
+.sub-now {
+  background: rgba(3, 6, 18, 0.55);
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height: 37px;
+  font-size: 15px;
+  color: white;
+  font-family: "Montserrat", Times, serif;
+}
+
+.sub-now:hover {
+  -webkit-animation-name: background-color1;
+          animation-name: background-color1;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@keyframes background-color1 {
+  100% {
+    background-color: rgba(6, 161, 244, 0.75);
+  }
+}
+
+.email-field {
+  width: 300px;
+  height: 30px;
+}
+
+.email-text {
+  font-size: 10px;
+  font-family: "Montserrat", Times, serif;
+  text-align: center;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.buybox {
+  font-size: 40px;
+  height: 150px;
+  width: 1000px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 400px 100px;
+      grid-template-rows: 400px 100px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+}
+
+.buyfield1 {
+  margin: 0px 10px 0px 0px;
+  background: LightGray;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1/1/2/2;
+  background-image: URL("./IMG_6995.jpg");
+  background-size: cover;
+}
+
+.buyfield2 {
+  margin: 0px 10px 0px 0px;
+  background: LightGray;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1/2/2/3;
+  background-image: URL("./Roll.jpeg");
+  background-size: cover;
+}
+
+.pricefield1 {
+  margin: 0px 0px 0px 1px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/3/2;
+  line-height: 200px;
+  color: black;
+  font-family: "Montserrat", Times, serif;
+}
+
+.pricefield2 {
+  margin: 0px 0px 0px 1px;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2/2/3/3;
+  line-height: 200px;
+  color: black;
+  font-family: "Montserrat", Times, serif;
+}
+
+/* below is the code for insta feed */
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  background: gainsboro;
+}
+
+#instafeed {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 50px 10px 5px 0px;
+}
+
+#instafeed a {
+  position: relative;
+  width: 50%;
+}
+
+@media only screen and (min-width: 580px) {
+  #instafeed a {
+    width: 25%;
+  }
+}
+
+#instafeed a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#instafeed a div.footer {
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: .5rem 1rem;
+  background: rgba(30, 144, 255, 0.8);
+  font-size: .8rem;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+#instafeed a div.footer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: .5rem;
+  -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+#instafeed a div.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#instafeed a div.caption {
+  height: 0;
+  opacity: 0;
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  word-break: break-all;
+}
+
+#instafeed a:hover .caption,
+#instafeed a:focus .caption {
+  margin: -.5rem -1rem .5rem;
+  padding: .5rem 1rem;
+  opacity: 1;
+  height: auto;
+}
+/*# sourceMappingURL=New-Page-CSS.css.map */
